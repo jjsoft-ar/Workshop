@@ -6,8 +6,8 @@ use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\View;
 use Modules\Core\Http\Controllers\Admin\AdminBaseController;
 use Modules\Workshop\Manager\ModuleManager;
-use Pingpong\Modules\Module;
-use Pingpong\Modules\Repository;
+use Nwidart\Modules\Module;
+use Nwidart\Modules\Repository;
 use Symfony\Component\Console\Output\BufferedOutput;
 
 class ModulesController extends AdminBaseController

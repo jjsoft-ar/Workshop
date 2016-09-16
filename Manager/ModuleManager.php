@@ -3,7 +3,7 @@
 use Illuminate\Config\Repository as Config;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
-use Pingpong\Modules\Module;
+use Nwidart\Modules\Module;
 use Symfony\Component\Yaml\Parser;
 
 class ModuleManager
@@ -48,7 +48,7 @@ class ModuleManager
 
         foreach ($modules as $module) {
             $moduleName = $module->getName();
-            $package = $this->packageVersion->getPackageInfo("asgardcms/$moduleName-module");
+            $package = $this->packageVersion->getPackageInfo("jjsoft-ar/$moduleName-module");
             $module->version = isset($package->version) ? $package->version: 'N/A';
             $module->versionUrl = '#';
             if (isset($package->source->url)) {
