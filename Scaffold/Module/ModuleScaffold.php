@@ -292,7 +292,7 @@ JSON;
     "require": {
         "php": ">=5.4",
         "composer/installers": "~1.0",
-        "asgardcms/core-module": "~1.0"
+        "jjsoft-ar/core-module": "~1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
