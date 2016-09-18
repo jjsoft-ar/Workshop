@@ -23,7 +23,7 @@
   "require": {
     "php": ">=5.4",
     "composer/installers": "~1.0",
-    "jjsoft-ar/core-module": "~1.0",
+    "jjsoft-ar/core-module": "1.0.x-dev",
     "nwidart/laravel-modules": "^1.13",
     "symfony/yaml": "^3.0"
   },
